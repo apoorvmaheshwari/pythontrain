@@ -1,0 +1,10 @@
+A Frame is a container widget which is placed inside a window, which can have its own border and background – it is used to group related widgets together in an application’s layout.
+Toplevel is a container widget which is displayed as a separate window.
+Canvas is a widget for drawing graphics. In advanced usage, it can also be used to create custom widgets – because we can draw anything we like inside it, and make it interactive.
+Text displays formatted text, which can be editable and can have embedded images.
+A Button usually maps directly onto a user action – when the user clicks on a button, something should happen.
+A Label is a simple widget which displays a short piece of text or an image, but usually isn’t interactive.
+A Message is similar to a Label, but is designed for longer bodies of text which need to be wrapped.
+A Scrollbar allows the user to scroll through content which is too large to be visible all at once.
+Checkbutton, Radiobutton, Listbox, Entry and Scale are different kinds of input widgets – they allow the user to enter information into the program.
+Menu and Menubutton are used to create pull-down menus.

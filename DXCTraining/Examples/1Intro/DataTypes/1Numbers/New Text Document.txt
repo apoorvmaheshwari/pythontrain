@@ -1,0 +1,8 @@
+varInt = 1
+varLong = 0xDEFABCECBDAECBFBAEL
+varFloat = 15.20
+varComplex = -.65+10J
+print varInt
+print varLong
+print varFloat
+print varComplex

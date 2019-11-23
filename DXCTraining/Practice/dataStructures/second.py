@@ -1,0 +1,12 @@
+d={
+	"fname":"Sachin",
+	"lname":"Tendulkar",
+	"address":{
+	"houseno":17,
+	"area":"worli",
+	"city":"Mumbai",
+	'pin':"220022"
+	}
+}
+print(d["address"]["pin"])
+print(d["address"]["city"])

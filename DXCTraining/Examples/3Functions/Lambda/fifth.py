@@ -1,0 +1,1 @@
+(lambda x: lambda z :z**x)(2)(3)

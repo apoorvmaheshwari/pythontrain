@@ -1,0 +1,13 @@
+lock = Lock()
+if not lock.locked():
+	lock.acquire() # will block if lock is already held
+	#access shared resource
+	lock.release()
+
+event = threading.Event()
+# a client thread can wait for the flag to be set
+event.wait()
+
+# a server thread can set or reset it
+event.set()
+event.clear()
